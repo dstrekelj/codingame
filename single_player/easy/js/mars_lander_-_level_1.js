@@ -18,10 +18,9 @@ for (;;) {
         P = inputs[6]; // the thrust power (0 to 4).
 
     // R P. R is the desired rotation angle. P is the desired thrust power.
-    
+
     if (Y > 2000)
         print("0 2");
     else
         print("0 4");
-    
 }

@@ -11,13 +11,13 @@ for (var i = 0; i < N; i++) {
 
 for (var i = 0; i < Q; i++) {
     var FNAME = readline().toLowerCase();
-    
+
     if (FNAME.contains('.')) {
         var name = FNAME.split('.');
-    
+
         var extension = name[name.length - 1];
         printErr('error ' + extension);
-    
+
         print((TYPES.has(extension)) ? TYPES.get(extension) : 'UNKNOWN');
     } else {
         print('UNKNOWN');
