@@ -1,1 +1,0 @@
-for(I=readline().split(" "),T=+I[4],N=+I[7],E=[],i=0;i<N;i++)I=readline().split(" "),F=+I[0],E[F]=+I[1];for(;;)I=readline().split(" "),G=+I[0],Q=+I[1],D=I[2],M="WAIT",G<E.length?(Q>E[G]&&"RIGHT"==D||Q<E[G]&&"LEFT"==D)&&(M="BLOCK"):(Q>T&&"RIGHT"==D||Q<T&&"LEFT"==D)&&(M="BLOCK"),print(M);
